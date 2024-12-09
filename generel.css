@@ -1,0 +1,189 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/*************** Menu ****************/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  padding: 20px;
+  box-shadow: 0px 2px 6px black;
+  background-color: rgb(238, 233, 227);
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 7.5rem;
+}
+
+.menu a {
+  display: block;
+  text-decoration: none;
+  margin-left: 1rem;
+  color: rgb(108, 92, 92);
+  font-family: "Metrophobic", sans-serif;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  color: rgb(108, 92, 92);
+  background-color: rgb(238, 233, 227);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+/*************** video ****************/
+
+video {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 1rem;
+}
+
+iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+/*************** tekstindhold ****************/
+
+h1 {
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  font-family: "Oswald", sans-serif;
+  color: rgb(239, 215, 54);
+}
+
+#intro p {
+  font-size: 2rem;
+}
+
+p {
+  font-family: "Metrophobic", sans-serif;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  text-align: justify;
+  line-height: 1.8rem;
+  max-width: 45ch;
+  font-size: 0.9rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  font-family: "Oswald", sans-serif;
+}
+
+.img-m-tekst p {
+  font-family: "Metrophobic", sans-serif;
+  font-size: 1.6rem;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  align-self: center;
+}
+
+.img-m-tekst img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.logo img {
+  width: 7rem;
+  height: auto;
+}
+
+@media screen and (min-width: 800px) {
+  main {
+    padding: 6rem;
+    margin-top: -4rem;
+  }
+
+  .hero {
+    padding: 4rem;
+    margin-bottom: 3rem;
+  }
+
+  #intro p {
+    margin-left: 20rem;
+    margin-top: 8rem;
+
+    max-width: 40ch;
+  }
+  .intro2 {
+    margin-top: -2rem;
+  }
+
+  nav {
+    margin-right: 4rem;
+  }
+
+  #galleri,
+  #passion {
+    margin-left: 5.8rem;
+  }
+
+  #galleri {
+    margin-bottom: -4rem;
+  }
+}
+
+main {
+  padding: 0.3rem;
+}
+
+.hero {
+  margin: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  align-self: stretch;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.hero-img {
+  display: grid;
+}
+
+.wall {
+  grid-column: 1;
+  grid-row: 1;
+  place-self: center;
+  opacity: 48%;
+}
+
+.lottie {
+  grid-column: 1;
+  grid-row: 1;
+  place-self: center;
+  height: 90%;
+}
+
+footer p {
+  margin: 0;
+}
